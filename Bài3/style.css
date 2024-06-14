@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1C233D;
+    color: #ffffff;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.search {
+    border: 1px solid;
+    border-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.searchTerm{
+    background-color: #1C233D;
+    border:none;
+    color:#FFFFFF;
+}
+.navbar a.sign-in {
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.content-left{
+    width:50%;
+    padding-right: 100px;
+    text-align: left;
+}
+.content-right{
+    width:50%;
+}
+.content h1 {
+    font-size: 48px;
+    line-height: 75px;
+}
+.content p {
+    font-size: 18px;
+    color: #cccccc;
+    margin-bottom:50px;
+}
+.discover-now {
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.stats {
+    margin: 0;
+}
+.stats div {
+    margin: 50px 0;
+}
+.stats div h3 {
+    margin: 5px 0;
+    font-size: 36px;
+}
+.stats div p {
+    margin: 5px 0;
+    color: #cccccc;
+}
+.featured-nft {
+    display: inline-block;
+    border-radius: 10px;
+}
+.featured-nft img {
+    border-radius: 10px;
+}
+.featured-nft h3 {
+    margin: 10px 0;
+}
+.partners {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.partners img {
+    margin: 0 20px;
+}
+.footer {
+    background-color: #0f0f1e;
+    padding: 20px;
+}
+.footer p {
+    color: #cccccc;
+    margin: 0;
+}
